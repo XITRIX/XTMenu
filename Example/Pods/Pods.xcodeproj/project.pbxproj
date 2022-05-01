@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13423263E18C28FC93A3FBB3D9F3CEE4 /* XTMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8596849B1A13C47347D191CBBD18A7F /* XTMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BC37A22B26C13E189E98F718F7C9091 /* XTMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98A47E716B190A02A21765EE0881118 /* XTMenuCell.swift */; };
+		1D7335F2C59515C83CE98B8DE899DAF8 /* Pods-XTMenu_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B55940E802756FE2D8608941423B1196 /* Pods-XTMenu_Tests-dummy.m */; };
+		21CB59F3150722A32F355E02F1D94BBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2B107C0DA35893BDD0D790ED07DC9B76 /* XTMenu-XTMenu in Resources */ = {isa = PBXBuildFile; fileRef = E43177AF56D173B35278863B8B1D7C14 /* XTMenu-XTMenu */; };
+		3787704A9D2D313DEC50160BE7FF232A /* XTMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A20A51467C164383743E4B8A4466CF /* XTMenu-dummy.m */; };
+		4343E4EF44E44766DDEA54BEFF8D26B7 /* XTMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0BA95859520F63720742CCC7EBDB6F8 /* XTMenuCell.xib */; };
+		46AD381DC54A7CA26DFBC95589671E3B /* Pods-XTMenu_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDD8D06AE8ECA8C24993F9C1E6C403AA /* Pods-XTMenu_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA072241D5C26392DE0ECE1E902BD6D /* XTMenuAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EDDE43F0457969788463BA2D696EAA /* XTMenuAnimator.swift */; };
+		4FBDFDBCA0AEC32B1E2FD6DFA129B814 /* XTMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FC9929A860BA3590368AB2E26271FF /* XTMenuController.swift */; };
+		54A957B46AAF6FA06D0E7F19E8E238AC /* XTMenuCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = B0BA95859520F63720742CCC7EBDB6F8 /* XTMenuCell.xib */; };
+		61641E75321DED2F6F543DD3181FFDBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		68818E38EEF6253A1019D7A1344289EA /* CellWithSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062D1E6260D81C92F7122393AFCF93A4 /* CellWithSeparator.swift */; };
+		82B69E24ED59202E222E253FCC7C3454 /* XTMenuUnderlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4AEEA790D0B0872E1478B8BF32DED8 /* XTMenuUnderlayView.swift */; };
+		98DC369D12C5E1443B3DE34394E52693 /* Pods-XTMenu_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 358FFF79D3A0F4F5AB7B9A7FC01834CB /* Pods-XTMenu_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C829C170568B15BAD0CC6F0127B6AC55 /* XTMenuSeparatorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80F5EA970D83B928A91889F94D450758 /* XTMenuSeparatorCell.xib */; };
+		CFC8F510FF1945F1697955E7B6F5028C /* XTMenuSeparatorCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 80F5EA970D83B928A91889F94D450758 /* XTMenuSeparatorCell.xib */; };
+		D131766D5DB1D79B66B8C729530919C8 /* XTMenuElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9155FCF1E4050A22B471AE00FBA6B2CB /* XTMenuElement.swift */; };
+		D6E706D000BAE7FAFD991AB091C2BCED /* XTMenuHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242E533C905C5677344C1F4C0BD1EA50 /* XTMenuHeader.swift */; };
+		E2F2F3BE00ED136784FA34E0A9A83A5A /* XTMenuSeparatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14033E6C78925F0D66899914A3950E5F /* XTMenuSeparatorCell.swift */; };
+		F6831760BBFF75FBF1FE65A735DE02B8 /* Pods-XTMenu_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8C027D5429ED3DA275D2990625773E /* Pods-XTMenu_Example-dummy.m */; };
+		F95303E150B2E91E602FC9FEE347410F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F7D0DDCBD52E9264850554A6F37E245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4459CFF29DFA30EE6BF5A7B3A5DD20B;
+			remoteInfo = "Pods-XTMenu_Example";
+		};
+		5E4286DED8B9FA2F07AE5EB6755B6FD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7DBB5B1E45FA0405DD8220E5385AA45;
+			remoteInfo = XTMenu;
+		};
+		74AF0165C878F2CB50FDE4CF205EAE32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D34FDB025AF5745EB47662079CC11DA;
+			remoteInfo = "XTMenu-XTMenu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		062D1E6260D81C92F7122393AFCF93A4 /* CellWithSeparator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CellWithSeparator.swift; sourceTree = "<group>"; };
+		14033E6C78925F0D66899914A3950E5F /* XTMenuSeparatorCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = XTMenuSeparatorCell.swift; sourceTree = "<group>"; };
+		1A733F1C923578C9B0253410757DF0D6 /* XTMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XTMenu-Info.plist"; sourceTree = "<group>"; };
+		1DC8998953628D5D5074967C32635B53 /* Pods-XTMenu_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XTMenu_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		242E533C905C5677344C1F4C0BD1EA50 /* XTMenuHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = XTMenuHeader.swift; sourceTree = "<group>"; };
+		2AA14F472BF974DF2365BA646DDAECD5 /* Pods-XTMenu_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XTMenu_Tests-Info.plist"; sourceTree = "<group>"; };
+		2C57D594CDB2A183CE42C548B8F2E143 /* Pods-XTMenu_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XTMenu_Example"; path = Pods_XTMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		358FFF79D3A0F4F5AB7B9A7FC01834CB /* Pods-XTMenu_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XTMenu_Tests-umbrella.h"; sourceTree = "<group>"; };
+		48FC714740F43036C7EFC72ACDAC17CF /* Pods-XTMenu_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XTMenu_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		513BF51CAB3894E1EC9992DB454700EB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		53976FA93C40F5BB43AFF76E35316C5A /* XTMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XTMenu-prefix.pch"; sourceTree = "<group>"; };
+		58A20A51467C164383743E4B8A4466CF /* XTMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XTMenu-dummy.m"; sourceTree = "<group>"; };
+		5D4828CC45BCE9EA8654CC6EAF2E28E1 /* Pods-XTMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XTMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5E746783D9B0924B853751F49171B59E /* Pods-XTMenu_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XTMenu_Tests.modulemap"; sourceTree = "<group>"; };
+		65770F40C6975A44182A65E4C85B16F5 /* Pods-XTMenu_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XTMenu_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6A56AEF1A5855214DA6539032AFB867A /* Pods-XTMenu_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XTMenu_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6CBAD24C4E1637AADEF39E7FD25FE452 /* XTMenu */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XTMenu; path = XTMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		80F5EA970D83B928A91889F94D450758 /* XTMenuSeparatorCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = XTMenuSeparatorCell.xib; sourceTree = "<group>"; };
+		81FFA1A36C7FD6A2B2201D163F2271FE /* Pods-XTMenu_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XTMenu_Tests"; path = Pods_XTMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CA69E87E0320523B01F639E4D040811 /* Pods-XTMenu_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XTMenu_Example.modulemap"; sourceTree = "<group>"; };
+		8F5D2EA24D397941B83503A9130422D4 /* XTMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XTMenu.debug.xcconfig; sourceTree = "<group>"; };
+		9155FCF1E4050A22B471AE00FBA6B2CB /* XTMenuElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = XTMenuElement.swift; sourceTree = "<group>"; };
+		96B20FE23930B9BA5866D0A63CB6B260 /* XTMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XTMenu.modulemap; sourceTree = "<group>"; };
+		99FC9929A860BA3590368AB2E26271FF /* XTMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XTMenuController.swift; path = XTMenu/Classes/XTMenuController.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0F09D043DB28751B09ED19B13F818AA /* XTMenu.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XTMenu.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4E469649E37595E720BD86C34BC22BE /* ResourceBundle-XTMenu-XTMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XTMenu-XTMenu-Info.plist"; sourceTree = "<group>"; };
+		A569E30C44B5552205CBBAC8E0DD43A8 /* Pods-XTMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XTMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8596849B1A13C47347D191CBBD18A7F /* XTMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XTMenu-umbrella.h"; sourceTree = "<group>"; };
+		A98A47E716B190A02A21765EE0881118 /* XTMenuCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = XTMenuCell.swift; sourceTree = "<group>"; };
+		B0BA95859520F63720742CCC7EBDB6F8 /* XTMenuCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = XTMenuCell.xib; sourceTree = "<group>"; };
+		B44E92BA03130247A83802D73E57B910 /* Pods-XTMenu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XTMenu_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B55940E802756FE2D8608941423B1196 /* Pods-XTMenu_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XTMenu_Tests-dummy.m"; sourceTree = "<group>"; };
+		BDD8D06AE8ECA8C24993F9C1E6C403AA /* Pods-XTMenu_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XTMenu_Example-umbrella.h"; sourceTree = "<group>"; };
+		BF1B9D0AF7BFB24A084CDD58055786D0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BF241C06BD0C2E0862320D6F13B5357C /* Pods-XTMenu_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XTMenu_Example-Info.plist"; sourceTree = "<group>"; };
+		C7EDDE43F0457969788463BA2D696EAA /* XTMenuAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XTMenuAnimator.swift; path = XTMenu/Classes/XTMenuAnimator.swift; sourceTree = "<group>"; };
+		DE4AEEA790D0B0872E1478B8BF32DED8 /* XTMenuUnderlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = XTMenuUnderlayView.swift; sourceTree = "<group>"; };
+		E0BDC5163C31640CD878EFFFA8F0F7AE /* XTMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XTMenu.release.xcconfig; sourceTree = "<group>"; };
+		E22DDF022AEBEC843EF4ABC23970BF84 /* Pods-XTMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XTMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E43177AF56D173B35278863B8B1D7C14 /* XTMenu-XTMenu */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "XTMenu-XTMenu"; path = XTMenu.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E634A7731D2884CC6A6B3BE09265545F /* Pods-XTMenu_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XTMenu_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD8C027D5429ED3DA275D2990625773E /* Pods-XTMenu_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XTMenu_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		505A473F9B92E892CC31F312DBBDF668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61641E75321DED2F6F543DD3181FFDBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E66630E8FB9D41932FB67FD9D7019D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21CB59F3150722A32F355E02F1D94BBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F504E7DA047810FF0889127F5AD070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C28043885A98A3B39090616D5DDFB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95303E150B2E91E602FC9FEE347410F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034DB31930C42CC0C891FB6ADDECD337 /* XTMenuHeader */ = {
+			isa = PBXGroup;
+			children = (
+				242E533C905C5677344C1F4C0BD1EA50 /* XTMenuHeader.swift */,
+			);
+			path = XTMenuHeader;
+			sourceTree = "<group>";
+		};
+		17BE0AC6698EB380482A44FD6B9E73F5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CA243E0ECF3518DD23C9073BA7AB00B /* XTMenu */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1C6EA3380E3ABDA6140CFBD604973B38 /* Pods-XTMenu_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5E746783D9B0924B853751F49171B59E /* Pods-XTMenu_Tests.modulemap */,
+				1DC8998953628D5D5074967C32635B53 /* Pods-XTMenu_Tests-acknowledgements.markdown */,
+				48FC714740F43036C7EFC72ACDAC17CF /* Pods-XTMenu_Tests-acknowledgements.plist */,
+				B55940E802756FE2D8608941423B1196 /* Pods-XTMenu_Tests-dummy.m */,
+				2AA14F472BF974DF2365BA646DDAECD5 /* Pods-XTMenu_Tests-Info.plist */,
+				358FFF79D3A0F4F5AB7B9A7FC01834CB /* Pods-XTMenu_Tests-umbrella.h */,
+				A569E30C44B5552205CBBAC8E0DD43A8 /* Pods-XTMenu_Tests.debug.xcconfig */,
+				E22DDF022AEBEC843EF4ABC23970BF84 /* Pods-XTMenu_Tests.release.xcconfig */,
+			);
+			name = "Pods-XTMenu_Tests";
+			path = "Target Support Files/Pods-XTMenu_Tests";
+			sourceTree = "<group>";
+		};
+		336FCA3EFBB6A8EE4444E246D7870027 /* Pods-XTMenu_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8CA69E87E0320523B01F639E4D040811 /* Pods-XTMenu_Example.modulemap */,
+				6A56AEF1A5855214DA6539032AFB867A /* Pods-XTMenu_Example-acknowledgements.markdown */,
+				E634A7731D2884CC6A6B3BE09265545F /* Pods-XTMenu_Example-acknowledgements.plist */,
+				FD8C027D5429ED3DA275D2990625773E /* Pods-XTMenu_Example-dummy.m */,
+				65770F40C6975A44182A65E4C85B16F5 /* Pods-XTMenu_Example-frameworks.sh */,
+				BF241C06BD0C2E0862320D6F13B5357C /* Pods-XTMenu_Example-Info.plist */,
+				BDD8D06AE8ECA8C24993F9C1E6C403AA /* Pods-XTMenu_Example-umbrella.h */,
+				5D4828CC45BCE9EA8654CC6EAF2E28E1 /* Pods-XTMenu_Example.debug.xcconfig */,
+				B44E92BA03130247A83802D73E57B910 /* Pods-XTMenu_Example.release.xcconfig */,
+			);
+			name = "Pods-XTMenu_Example";
+			path = "Target Support Files/Pods-XTMenu_Example";
+			sourceTree = "<group>";
+		};
+		36C67C6A1C71C69C48D16F9CECAE1D75 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DE4AEEA790D0B0872E1478B8BF32DED8 /* XTMenuUnderlayView.swift */,
+			);
+			name = Utils;
+			path = XTMenu/Classes/Utils;
+			sourceTree = "<group>";
+		};
+		3CA243E0ECF3518DD23C9073BA7AB00B /* XTMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C7EDDE43F0457969788463BA2D696EAA /* XTMenuAnimator.swift */,
+				99FC9929A860BA3590368AB2E26271FF /* XTMenuController.swift */,
+				9BD9D81CA43E85870A3C84CE393F94FA /* Cells */,
+				7B4EDA7B5E38164E0F8B2C67678A909D /* Models */,
+				36C67C6A1C71C69C48D16F9CECAE1D75 /* Utils */,
+				EE0D8657AC399AAAB4857D5723003CF5 /* Pod */,
+				52FA9AECFF813784775F2B72ACEC2CAD /* Support Files */,
+			);
+			name = XTMenu;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		52FA9AECFF813784775F2B72ACEC2CAD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4E469649E37595E720BD86C34BC22BE /* ResourceBundle-XTMenu-XTMenu-Info.plist */,
+				96B20FE23930B9BA5866D0A63CB6B260 /* XTMenu.modulemap */,
+				58A20A51467C164383743E4B8A4466CF /* XTMenu-dummy.m */,
+				1A733F1C923578C9B0253410757DF0D6 /* XTMenu-Info.plist */,
+				53976FA93C40F5BB43AFF76E35316C5A /* XTMenu-prefix.pch */,
+				A8596849B1A13C47347D191CBBD18A7F /* XTMenu-umbrella.h */,
+				8F5D2EA24D397941B83503A9130422D4 /* XTMenu.debug.xcconfig */,
+				E0BDC5163C31640CD878EFFFA8F0F7AE /* XTMenu.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XTMenu";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7B4EDA7B5E38164E0F8B2C67678A909D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9155FCF1E4050A22B471AE00FBA6B2CB /* XTMenuElement.swift */,
+			);
+			name = Models;
+			path = XTMenu/Classes/Models;
+			sourceTree = "<group>";
+		};
+		9B6875C663570F8A8AABE42C9422CE4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C57D594CDB2A183CE42C548B8F2E143 /* Pods-XTMenu_Example */,
+				81FFA1A36C7FD6A2B2201D163F2271FE /* Pods-XTMenu_Tests */,
+				6CBAD24C4E1637AADEF39E7FD25FE452 /* XTMenu */,
+				E43177AF56D173B35278863B8B1D7C14 /* XTMenu-XTMenu */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BD9D81CA43E85870A3C84CE393F94FA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				062D1E6260D81C92F7122393AFCF93A4 /* CellWithSeparator.swift */,
+				A9C113EACC73AE2280918D4DEA9F74DE /* XTMenuCell */,
+				034DB31930C42CC0C891FB6ADDECD337 /* XTMenuHeader */,
+				A23F71E6AA1CEB4CD2F8954B75D7D349 /* MenuSeparator */,
+			);
+			name = Cells;
+			path = XTMenu/Classes/Cells;
+			sourceTree = "<group>";
+		};
+		A23F71E6AA1CEB4CD2F8954B75D7D349 /* MenuSeparator */ = {
+			isa = PBXGroup;
+			children = (
+				14033E6C78925F0D66899914A3950E5F /* XTMenuSeparatorCell.swift */,
+				80F5EA970D83B928A91889F94D450758 /* XTMenuSeparatorCell.xib */,
+			);
+			path = MenuSeparator;
+			sourceTree = "<group>";
+		};
+		A9C113EACC73AE2280918D4DEA9F74DE /* XTMenuCell */ = {
+			isa = PBXGroup;
+			children = (
+				A98A47E716B190A02A21765EE0881118 /* XTMenuCell.swift */,
+				B0BA95859520F63720742CCC7EBDB6F8 /* XTMenuCell.xib */,
+			);
+			path = XTMenuCell;
+			sourceTree = "<group>";
+		};
+		B123BECE31D2C411B9A767AE67F3D48B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				336FCA3EFBB6A8EE4444E246D7870027 /* Pods-XTMenu_Example */,
+				1C6EA3380E3ABDA6140CFBD604973B38 /* Pods-XTMenu_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				17BE0AC6698EB380482A44FD6B9E73F5 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9B6875C663570F8A8AABE42C9422CE4B /* Products */,
+				B123BECE31D2C411B9A767AE67F3D48B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE0D8657AC399AAAB4857D5723003CF5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BF1B9D0AF7BFB24A084CDD58055786D0 /* LICENSE */,
+				513BF51CAB3894E1EC9992DB454700EB /* README.md */,
+				A0F09D043DB28751B09ED19B13F818AA /* XTMenu.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1AAA3720B11DC133C9512A963A3A24B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46AD381DC54A7CA26DFBC95589671E3B /* Pods-XTMenu_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816021E1AAF5CAE10BEE5342C5DA47BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13423263E18C28FC93A3FBB3D9F3CEE4 /* XTMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B28274658F247480BA8EAD4E5DE759 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DC369D12C5E1443B3DE34394E52693 /* Pods-XTMenu_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D34FDB025AF5745EB47662079CC11DA /* XTMenu-XTMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D69AB00BBA43719AE08BD806548BC4A /* Build configuration list for PBXNativeTarget "XTMenu-XTMenu" */;
+			buildPhases = (
+				2F69336EAADC6BD357FF3233275B7F06 /* Sources */,
+				A3F504E7DA047810FF0889127F5AD070 /* Frameworks */,
+				4BFEBEDE862C89B0736A93C33B83BB6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XTMenu-XTMenu";
+			productName = XTMenu;
+			productReference = E43177AF56D173B35278863B8B1D7C14 /* XTMenu-XTMenu */;
+			productType = "com.apple.product-type.bundle";
+		};
+		87E368567F62780E36A144B011360912 /* Pods-XTMenu_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2809060DDEFBD1316E66F82A17B0B519 /* Build configuration list for PBXNativeTarget "Pods-XTMenu_Tests" */;
+			buildPhases = (
+				95B28274658F247480BA8EAD4E5DE759 /* Headers */,
+				2BA3802AB598D2976FE319F7662ED1C9 /* Sources */,
+				97E66630E8FB9D41932FB67FD9D7019D /* Frameworks */,
+				4D01D628FBCC827C637F28F88F65F750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8A7806E592313C655A6E9705E7C4BF0 /* PBXTargetDependency */,
+			);
+			name = "Pods-XTMenu_Tests";
+			productName = Pods_XTMenu_Tests;
+			productReference = 81FFA1A36C7FD6A2B2201D163F2271FE /* Pods-XTMenu_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		C7DBB5B1E45FA0405DD8220E5385AA45 /* XTMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF250EBCF5B69A3A7454F7F577714D75 /* Build configuration list for PBXNativeTarget "XTMenu" */;
+			buildPhases = (
+				816021E1AAF5CAE10BEE5342C5DA47BA /* Headers */,
+				C2FFD45AF0852648D0CF3D89BD4992CB /* Sources */,
+				B2C28043885A98A3B39090616D5DDFB5 /* Frameworks */,
+				0607D782CE29F05F26F1E3523F34982E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE61973891CAC46CCEA7549F7AEF1650 /* PBXTargetDependency */,
+			);
+			name = XTMenu;
+			productName = XTMenu;
+			productReference = 6CBAD24C4E1637AADEF39E7FD25FE452 /* XTMenu */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4459CFF29DFA30EE6BF5A7B3A5DD20B /* Pods-XTMenu_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE774BDCB87E02359B6C4ED4433862AD /* Build configuration list for PBXNativeTarget "Pods-XTMenu_Example" */;
+			buildPhases = (
+				1AAA3720B11DC133C9512A963A3A24B8 /* Headers */,
+				757A9406E864DAEAF529AC7C5B984B3D /* Sources */,
+				505A473F9B92E892CC31F312DBBDF668 /* Frameworks */,
+				B1A4F2E2C4683CC4ECAEA851EA1A79BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F862853150AD843463DCFE7CDE921F8F /* PBXTargetDependency */,
+			);
+			name = "Pods-XTMenu_Example";
+			productName = Pods_XTMenu_Example;
+			productReference = 2C57D594CDB2A183CE42C548B8F2E143 /* Pods-XTMenu_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9B6875C663570F8A8AABE42C9422CE4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4459CFF29DFA30EE6BF5A7B3A5DD20B /* Pods-XTMenu_Example */,
+				87E368567F62780E36A144B011360912 /* Pods-XTMenu_Tests */,
+				C7DBB5B1E45FA0405DD8220E5385AA45 /* XTMenu */,
+				0D34FDB025AF5745EB47662079CC11DA /* XTMenu-XTMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0607D782CE29F05F26F1E3523F34982E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B107C0DA35893BDD0D790ED07DC9B76 /* XTMenu-XTMenu in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BFEBEDE862C89B0736A93C33B83BB6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4343E4EF44E44766DDEA54BEFF8D26B7 /* XTMenuCell.xib in Resources */,
+				C829C170568B15BAD0CC6F0127B6AC55 /* XTMenuSeparatorCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D01D628FBCC827C637F28F88F65F750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1A4F2E2C4683CC4ECAEA851EA1A79BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BA3802AB598D2976FE319F7662ED1C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7335F2C59515C83CE98B8DE899DAF8 /* Pods-XTMenu_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F69336EAADC6BD357FF3233275B7F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		757A9406E864DAEAF529AC7C5B984B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6831760BBFF75FBF1FE65A735DE02B8 /* Pods-XTMenu_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FFD45AF0852648D0CF3D89BD4992CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68818E38EEF6253A1019D7A1344289EA /* CellWithSeparator.swift in Sources */,
+				4AA072241D5C26392DE0ECE1E902BD6D /* XTMenuAnimator.swift in Sources */,
+				1BC37A22B26C13E189E98F718F7C9091 /* XTMenuCell.swift in Sources */,
+				54A957B46AAF6FA06D0E7F19E8E238AC /* XTMenuCell.xib in Sources */,
+				4FBDFDBCA0AEC32B1E2FD6DFA129B814 /* XTMenuController.swift in Sources */,
+				D131766D5DB1D79B66B8C729530919C8 /* XTMenuElement.swift in Sources */,
+				D6E706D000BAE7FAFD991AB091C2BCED /* XTMenuHeader.swift in Sources */,
+				E2F2F3BE00ED136784FA34E0A9A83A5A /* XTMenuSeparatorCell.swift in Sources */,
+				CFC8F510FF1945F1697955E7B6F5028C /* XTMenuSeparatorCell.xib in Sources */,
+				82B69E24ED59202E222E253FCC7C3454 /* XTMenuUnderlayView.swift in Sources */,
+				3787704A9D2D313DEC50160BE7FF232A /* XTMenu-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8A7806E592313C655A6E9705E7C4BF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XTMenu_Example";
+			target = F4459CFF29DFA30EE6BF5A7B3A5DD20B /* Pods-XTMenu_Example */;
+			targetProxy = 4F7D0DDCBD52E9264850554A6F37E245 /* PBXContainerItemProxy */;
+		};
+		BE61973891CAC46CCEA7549F7AEF1650 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XTMenu-XTMenu";
+			target = 0D34FDB025AF5745EB47662079CC11DA /* XTMenu-XTMenu */;
+			targetProxy = 74AF0165C878F2CB50FDE4CF205EAE32 /* PBXContainerItemProxy */;
+		};
+		F862853150AD843463DCFE7CDE921F8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XTMenu;
+			target = C7DBB5B1E45FA0405DD8220E5385AA45 /* XTMenu */;
+			targetProxy = 5E4286DED8B9FA2F07AE5EB6755B6FD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10FFCAA6DBF7BB3A0D5706F523B4935A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0BDC5163C31640CD878EFFFA8F0F7AE /* XTMenu.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XTMenu/XTMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XTMenu/XTMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XTMenu/XTMenu.modulemap";
+				PRODUCT_MODULE_NAME = XTMenu;
+				PRODUCT_NAME = XTMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		228B51049882EBC0EF87B21C7BC985E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E22DDF022AEBEC843EF4ABC23970BF84 /* Pods-XTMenu_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XTMenu_Tests/Pods-XTMenu_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XTMenu_Tests/Pods-XTMenu_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3C4678B7D8310A8EB6065E1D27B726D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0BDC5163C31640CD878EFFFA8F0F7AE /* XTMenu.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XTMenu";
+				IBSC_MODULE = XTMenu;
+				INFOPLIST_FILE = "Target Support Files/XTMenu/ResourceBundle-XTMenu-XTMenu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = XTMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		44A827C81E915C55847A64B075E106AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B44E92BA03130247A83802D73E57B910 /* Pods-XTMenu_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XTMenu_Example/Pods-XTMenu_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XTMenu_Example/Pods-XTMenu_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C6C29924CA43B7C4CA8427BB7260DE47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A569E30C44B5552205CBBAC8E0DD43A8 /* Pods-XTMenu_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XTMenu_Tests/Pods-XTMenu_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XTMenu_Tests/Pods-XTMenu_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9BF9D8D41E4C4C1F21FF697E4DA306C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D4828CC45BCE9EA8654CC6EAF2E28E1 /* Pods-XTMenu_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XTMenu_Example/Pods-XTMenu_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XTMenu_Example/Pods-XTMenu_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CEFABF92CA97664CC649DEB74AE3767C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F5D2EA24D397941B83503A9130422D4 /* XTMenu.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XTMenu/XTMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XTMenu/XTMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XTMenu/XTMenu.modulemap";
+				PRODUCT_MODULE_NAME = XTMenu;
+				PRODUCT_NAME = XTMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D90AD7DC81A05B735BAE08DD906ED123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F5D2EA24D397941B83503A9130422D4 /* XTMenu.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XTMenu";
+				IBSC_MODULE = XTMenu;
+				INFOPLIST_FILE = "Target Support Files/XTMenu/ResourceBundle-XTMenu-XTMenu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = XTMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2809060DDEFBD1316E66F82A17B0B519 /* Build configuration list for PBXNativeTarget "Pods-XTMenu_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6C29924CA43B7C4CA8427BB7260DE47 /* Debug */,
+				228B51049882EBC0EF87B21C7BC985E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D69AB00BBA43719AE08BD806548BC4A /* Build configuration list for PBXNativeTarget "XTMenu-XTMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90AD7DC81A05B735BAE08DD906ED123 /* Debug */,
+				3C4678B7D8310A8EB6065E1D27B726D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF250EBCF5B69A3A7454F7F577714D75 /* Build configuration list for PBXNativeTarget "XTMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFABF92CA97664CC649DEB74AE3767C /* Debug */,
+				10FFCAA6DBF7BB3A0D5706F523B4935A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE774BDCB87E02359B6C4ED4433862AD /* Build configuration list for PBXNativeTarget "Pods-XTMenu_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BF9D8D41E4C4C1F21FF697E4DA306C /* Debug */,
+				44A827C81E915C55847A64B075E106AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="XTMenuCell" customModule="XTMenu" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ZCg-bb-4FW">
+                        <rect key="frame" x="32" y="12" width="276" height="20"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eEt-aN-Pdr">
+                                <rect key="frame" x="0.0" y="0.0" width="276" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wkm-gP-vaz">
+                        <rect key="frame" x="0.0" y="44" width="320" height="0.5"/>
+                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="bI4-Ct-jOr">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="0.0"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cJs-K6-ntx">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="0.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="cJs-K6-ntx" firstAttribute="top" secondItem="bI4-Ct-jOr" secondAttribute="top" id="05j-Jt-Xvp"/>
+                                <constraint firstAttribute="bottom" secondItem="cJs-K6-ntx" secondAttribute="bottom" id="JSk-Vg-1Sx"/>
+                                <constraint firstAttribute="trailing" secondItem="cJs-K6-ntx" secondAttribute="trailing" id="ber-uV-HCM"/>
+                                <constraint firstItem="cJs-K6-ntx" firstAttribute="leading" secondItem="bI4-Ct-jOr" secondAttribute="leading" id="tbb-9R-z9O"/>
+                            </constraints>
+                        </view>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.29999999999999999" id="chi-tI-B9W"/>
+                        </constraints>
+                        <vibrancyEffect style="separator">
+                            <blurEffect style="systemMaterial"/>
+                        </vibrancyEffect>
+                    </visualEffectView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="wkm-gP-vaz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="CwN-wY-sWG"/>
+                    <constraint firstItem="ZCg-bb-4FW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="32" id="ICp-a2-oy0"/>
+                    <constraint firstAttribute="bottom" secondItem="wkm-gP-vaz" secondAttribute="top" id="KjR-zN-Yc7"/>
+                    <constraint firstAttribute="trailing" secondItem="wkm-gP-vaz" secondAttribute="trailing" id="LBj-tc-Ozz"/>
+                    <constraint firstAttribute="bottom" secondItem="ZCg-bb-4FW" secondAttribute="bottom" constant="12" id="Vsm-gy-dKh"/>
+                    <constraint firstItem="ZCg-bb-4FW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="nBw-9F-hGJ"/>
+                    <constraint firstAttribute="trailing" secondItem="ZCg-bb-4FW" secondAttribute="trailing" constant="12" id="o90-Zx-1bZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <connections>
+                <outlet property="separatorView" destination="wkm-gP-vaz" id="bWs-kn-tAj"/>
+                <outlet property="titleLabel" destination="eEt-aN-Pdr" id="vmm-46-k1b"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="119.86607142857142"/>
+        </tableViewCell>
+    </objects>
+</document>

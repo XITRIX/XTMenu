@@ -1,0 +1,27 @@
+{
+  "name": "XTMenu",
+  "version": "0.1.0",
+  "summary": "A short description of XTMenu.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Daniil Vinogradov/XTMenu",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Daniil Vinogradov": "xitrix@bk.ru"
+  },
+  "source": {
+    "git": "https://github.com/Daniil Vinogradov/XTMenu.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "XTMenu/Classes/**/*",
+  "resource_bundles": {
+    "XTMenu": [
+      "XTMenu/Classes/**/*.xib"
+    ]
+  }
+}

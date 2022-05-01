@@ -1,0 +1,6 @@
+framework module XTMenu {
+  umbrella header "XTMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}
