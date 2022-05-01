@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Daniil Vinogradov/XTMenu'
+  s.homepage         = 'https://github.com/XITRIX/XTMenu'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Daniil Vinogradov' => 'xitrix@bk.ru' }
-  s.source           = { :git => 'https://github.com/Daniil Vinogradov/XTMenu.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/XITRIX/XTMenu.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'

@@ -1,5 +1,7 @@
 # XTMenu
 
+Reimplementation of UIMenu for iOS 10+ with support of presenting anywhere
+
 [![CI Status](https://img.shields.io/travis/Daniil Vinogradov/XTMenu.svg?style=flat)](https://travis-ci.org/Daniil Vinogradov/XTMenu)
 [![Version](https://img.shields.io/cocoapods/v/XTMenu.svg?style=flat)](https://cocoapods.org/pods/XTMenu)
 [![License](https://img.shields.io/cocoapods/l/XTMenu.svg?style=flat)](https://cocoapods.org/pods/XTMenu)
